@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task 5</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: blue;" >Registration form</h1>
+    <table style="border: 1px solid black;border-collapse: collapse; margin: auto;">
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black; width: 180px"><label for="Firstname">First Name</label></th>
+            <td style="width: 390px;"><input type="text" id="Firstname" name="Firstname" size="54"></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="Lastname">Last Name</label></th>
+            <td><input type="text" name="Lastname" id="Lastname" size="54"></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="Email">Email</label></th>
+            <td><input type="email" id="Email" name="Email" size="54"></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="Password">Password</label></th>
+            <td><input type="password" id="Password" name="Password" size="54"></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="Re-enter_password">Re-enter Password</label></th>
+            <td><input type="password" id="Re-enter_password" name="Re-enter_password" size="54"></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th rowspan="2" style="border: 1px solid black;"><label for="Gender">Gender</label></th>
+            <td colspan="2"><input type="radio" id="Gender" name="Gender" value="Male">Male</td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="Gender" id="Gender" value="Female">Female</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="Address">Address</Address></label></th>
+            <td><textarea name="Address" id="Address" cols="51" rows="5"></textarea></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="State"></label>State</th>
+            <td><input type="text" name="State" id="State" size="54"></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="Country">Country</label></th>
+            <td><select name="Country" id="Country">
+                <option value="Choose">Choose Your Country</option>
+                <option value="India">India</option>
+                <option value="England">England</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Ameriac">USA</option>
+                <option value="Switzerland">Switzerland</option>
+            </select></td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <th style="border: 1px solid black;"><label for="language">Languages known</label></th>
+            <td colspan="4"><input type="checkbox" name="language" id="language" value="English">English 
+            <input type="checkbox" name="language" id="language" value="Kannada">Kannada
+            <input type="checkbox" name="language" id="language" value="Hindi">Hindi
+            <input type="checkbox" name="language" id="language" value="Telugu">Telugu
+            </td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td colspan="2"><label for="self-declaration"></label>
+                <input type="checkbox" name="self-declaration" id="self-declaration">Hereby I declare all the given details are true</td>
+        </tr>
+        <tr style="border: 1px solid black;">
+            <td colspan="2" style="text-align: right;">Log in to <a href="#">Ethnus</a> website</td>
+        </tr>
+    </table>
+    <button type="submit" style="display: block; margin: 0 auto; margin-top: 10px; width: 80px;">Register</button>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 1</title>
+    <style>
+        .table1 {
+            background-color: rgb(123, 231, 221);
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            border-left: none;
+            border-right: none;
+            border-collapse: separate;
+            border-radius: 10px;
+            width: 100%;
+        }
+        .table2 {
+
+            width: 40%;
+            margin-top: 100px;
+            margin-left: 300px;
+            
+        }
+        #t1 {
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        #t2 {
+            border: 2px solid greenyellow;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <tr id="t1">
+            <th id="t1">Firstname</th>
+            <th id="t1">Lastname</th>
+            <th id="t1">Age</th>
+        </tr>
+        <tr id="t1">
+            <td id="t1">Jill</td>
+            <td id="t1">Smith</td>
+            <td id="t1">50</td>
+        </tr>
+        <tr id="t1">
+            <td id="t1">Eve</td>
+            <td id="t1">Jackson</td>
+            <td id="t1">94</td>
+        </tr>
+        <tr id="t1">
+            <td id="t1">John</td>
+            <td id="t1">Doe</td>
+            <td id="t1">80</td>
+        </tr>
+    </table>
+    <table class="table2" cellspacing="20">
+        <tr>
+            <td id="t2" style="border-radius: 7px;">    </td>
+            <td id="t2" style="border-radius: 7px;">    </td>
+            <td id="t2" style="border-radius: 15px;">    </td>
+        </tr>
+        <tr>
+            <td id="t2" style="border-radius: 7px;">    </td>
+            <td id="t2">    </td>
+            <td id="t2" style="border-radius: 15px;">    </td>
+        </tr>
+        <tr>
+            <td id="t2" style="border-radius: 50%;">    </td>
+            <td id="t2">    </td>
+            <td id="t2" style="border-top-right-radius: 8px; border-bottom-left-radius: 14px;">    </td>
+        </tr>
+    </table>
+</body>
+</html>
